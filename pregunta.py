@@ -42,7 +42,4 @@ def clean_data():
     # Eliminación de columnas duplicadas y valores nulos
     df = df.drop_duplicates().dropna()
 
-    #return df
-    print(df.head())
-
-print(clean_data())
+    return df
